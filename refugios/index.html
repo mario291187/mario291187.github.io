@@ -23,7 +23,146 @@
         zoom: 6
     });
 
-    map.on('load', function () {
+map.on('load', function () {
+
+    map.addSource("places", {
+        "type": "geojson",
+        "data": {
+         "type": "FeatureCollection",
+  "features": [
+    {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Telesecundaria No. 29 Profra. Carmen Fisher</strong><p> Camino del Conejo, Col. Lomas del Sol I, Pedregal, Cabo San Lucas, B.C.S., Mexico</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                  "type": "Point",
+                    "coordinates": [-109.914882, 22.87987]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Secundaria Tec. No. 19</strong><p>Paseo de Las Misiones 18, Campo de Golf Fonatur, San José del Cabo, Col. Las Palmas B.C.S., Mexico.</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.702203, 23.053072]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>CBTIS No. 256</strong><p> Los Pinos 228, Arcos del Sol I, Col. Arcos del Sol 23474 Cabo San Lucas, B.C.S., Mexico.</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.926375, 22.903673]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Prim. Fernando I. Cota</strong><p>Via Lactea 3350, Col del Sol, B.C.S., Mexico.</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.930675, 22.919405]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Prim. Lázaro Cárdenas</strong><p>Bv. Palma Abanico, Colonia Las Palmas, Las Palmas, B.C.S., Mexico</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.942546, 22.937773]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Prim. Héroes de 1847</strong><p>Camino del Conejo, Pedregal, Col. Lomas del Sol I, Cabo San Lucas, B.C.S., Mexico</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.914882, 22.87987]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Sec. Tec. No. 14</strong><p>Zacatecas, San José Viejo, B.C.S., Mexico</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.714053, 23.119708]
+                }
+            }, {
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Prim. Estado de Campeche</strong><p>Pez Gallo, La Playa, B.C.S., Mexico.</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.668333, 23.064167]
+                }
+            },{
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Paula Olachea Montejano</strong><p>Av. Santa Elena, San Bernabé, B.C.S., Mexico</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.706667, 23.131389]
+                }
+            },{
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Prim. Jacinto Rochín Pino</strong><p>Calle Luis Castro Arballo, Amp el Zacatal, 23430 San José del Cabo, B.C.S., Mexico</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.719489, 23.105306]
+                }
+            },{
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Cecyte No. 04</strong><p>Av. Pescadores, Ampliación Santa Rosa, 23428 San Jose del Cabo, B.C.S., Mexico</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.72566, 23.093432]
+                }
+            },{
+                "type": "Feature",
+                "properties": {
+                    "description": "<strong>Esc. Prim. Felipe de Jesús Pedroza</strong><p>Blvrd Forjadores, Lomas del Rosarito, El Zacatal, San José del Cabo, B.C.S., MexicoCol.</p>",
+                    "icon": "circle"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [-109.709881, 23.073307]
+                }
+            } ]
+        }
+    });
+    map.addLayer({
+        "id": "places",
+        "type": "symbol",
+        "source": "places",
+        "layout": {
+            "icon-image": "{icon}-15",
+            "icon-allow-overlap": true
+        }
+    });
+
         map.addSource('maine', {
             'type': 'geojson',
             'data': {
