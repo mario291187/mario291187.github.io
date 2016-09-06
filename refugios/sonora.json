@@ -1,0 +1,448 @@
+{
+ "type": "geojson",
+"data": {
+ "type": "FeatureCollection",
+"features": [
+ {
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>E.P. FERNANDO F. DWRAF</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.9, 27.909 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ALBERGUE COLONIA POPULAR</strong><p>Blvd. Perif. 91A, Las Colinas, 85440 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 27.911 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>DIF MUNICIPAL</strong><p>Magdalena 8, Los Ríos, 85440 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92,  27.92 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ALBERGUE 23 MARZO GUAYMAS</strong><p>Ceiba 7, 5 de Mayo, Nacionalización del Golfo de California, 85477 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 27.901 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>CDC FATIMA GUAYMAS</strong><p>Arroyo, Adolfo de la Huerta, Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.88, 27.941 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ITSON</strong><p>Biblioteca, Sonora, Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 27.968 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>BOMBEROS NORTE GUAYMAS</strong><p>García López SN-C MINISUPER FEMOSA, Albatros, 85420 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.93, 27.941 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>PRIMARIA CUAHUTEMOC</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.9, 27.909 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>E.P. NIÑOS HEROES DE CHAPULTEPEC</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.12,  27.98 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>E.P. JAIME TORRES BODET</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.42, 27.625 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESC. SEC. TENCINA NO. 23</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.41, 27.647 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESC. SEC. TENCINA NO. 28</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.29, 27.644 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>JULIO VILLA</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.29, 27.644 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESCUELA PRIMARIA FLORENTINO LÓPEZ CERVANTES</strong><p>El Centinela, 85499 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.91, 27.872 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>CBTIS 37</strong><p>Calle Hidalgo 1925, Yukujimari, 85120 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.96, 27.496 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESC. SEC. TEC. No. 70</strong><p>Calle Rosendo Montiel 1204, San Antonio, 85050 San Antonio, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.91, 27.514 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>CONALEP-PLANTEL CD. OBREGON</strong><p>Vicente Mexia 1433a, Nuevo Cajeme, Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.92, 27.508 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>COBACH No. 1</strong><p>Prof Antonio Caso 1276, Municipio Libre, 85080 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.477 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESC. SEC. GRAL. No. 7</strong><p>Misión Sta. Ana, Kino, 85194 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.94, 27.445 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>CBTIS 188</strong><p>Plan de San Luis 433A, Luis Echeverría, Russo Vogel, 85199 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.95, 27.456 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESC. PRIM. GRAL. LÁZARO CÁRDENAS</strong><p>Calle 1400, Quetchehueca, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.95, 27.262 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESC. SEC. BENITO JUÁREZ No. 23</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.04, 27.354 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>CBTA No. 38</strong><p>20 de Noviembre 216, Tobarito, 85204 Marte R. Gómez, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.89, 27.368 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESC. PRIM. RUFFO E. VITTELA</strong><p>Álvaro Obregón 101, Esperanza, 85210 Esperanza, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.581 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>GIMNACIO MUNICIPAL \"\"MANUEL LIRA GARCIA\"\"</strong><p>Guadalupe Victoria 12, Campestre, 85160 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.94, 27.482 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>CENTRO DE USOS MULTIPLES (CUM)</strong><p>Calle Sufragio Efectivo 130, Centro, Fundo Legal, 85000 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.494 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>HABITAD \"\"COMBATE\"\"</strong><p>Ocotlán 49, XX Cafe Combate, 83165 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 29.106 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ALBERGUE CASA AMIGA</strong><p>Calle Jesús García 100, Centro, 83000 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.95,  29.08 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>HABITAD \"\"OLIVOS\"\"</strong><p>Calle Alamo Blanco 419, 83284 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.98, 29.032 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>HABITAD \"\"MINITAS\"\"</strong><p>Biznaga LB, Palo Verde, 83280 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.99, 29.044 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>HABITAT \"\"SOLIDARIDAD\"\"</strong><p>Sierra Maycoba, Norberto Ortega, 83116 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [   -111, 29.137 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>HABITAD \"\"INTERNACIONAL\"\"</strong><p>Av. Prof.ª Rosario Padre de Carpio 1474, Internacional, 83170 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.02, 29.111 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESTACION DE BOMBEROS CENTRO</strong><p>Calz de Castilla, Real de Quiroga, 83220 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.02, 29.089 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESTACION DE BOMBEROS NORTE</strong><p>Calle López del Castillo, Villas del Cortijo, 83106 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.99, 29.144 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESTACION DE BOMBEROS SUR</strong><p>Blvrd Cimarrón 52, Nuevo Hermosillo, 83296 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.93,  29.02 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>HABITAD \"\"MIGUEL ALEMAN\"\"</strong><p>Rosario Ibarra, Las Palmas, 83116 Miguel Alemán, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.5, 28.848 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESTACION BOMBEROS \"\"MIGUEL ALEMAN\"\"</strong><p>Ricardo Flores Magón SN-S, Aguayo Porchas, 83345 Miguel Alemán, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.49, 28.842 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESTACION DE BOMBEROS BAHIA DE KINO</strong><p>Av Salina Cruz 30, Centro, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.823 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>ESCUELA PRIMARIA \"\"LÁZARO CÁRDENAS\"\"(BAHIA DE KINO)</strong><p>Bv. Padre Francisco Eusebio Kino, Centro, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.824 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "descrpition": "<strong>SALON PARROQUIAL</strong><p>Av. Puerto Vallarta 103, Burro Lindo, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.825 ] 
+} 
+} 
+] 
+} 
+}
