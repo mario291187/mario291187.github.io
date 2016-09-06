@@ -81,469 +81,6 @@
     });
 
 map.on('load', function () {
-/*  map.addSource('sonora',
-                {
- "type": "geojson",
-"data": {
- "type": "FeatureCollection",
-"features": [
- {
- "type": "Feature",
-"properties": {
- "description": "<strong>E.P. FERNANDO F. DWRAF</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.9, 27.909  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ALBERGUE COLONIA POPULAR</strong><p>Blvd. Perif. 91A, Las Colinas, 85440 Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [  -110.92 ,27.911 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>DIF MUNICIPAL</strong><p>Magdalena 8, Los Ríos, 85440 Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.92 ,27.92  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ALBERGUE 23 MARZO GUAYMAS</strong><p>Ceiba 7, 5 de Mayo, Nacionalización del Golfo de California, 85477 Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.92, 27.901  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>CDC FATIMA GUAYMAS</strong><p>Arroyo, Adolfo de la Huerta, Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.88, 27.941 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ITSON</strong><p>Biblioteca, Sonora, Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.92, 27.968  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>BOMBEROS NORTE GUAYMAS</strong><p>García López SN-C MINISUPER FEMOSA, Albatros, 85420 Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.93, 27.941  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>PRIMARIA CUAHUTEMOC</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.9, 27.909 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>E.P. NIÑOS HEROES DE CHAPULTEPEC</strong><p></p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [  -110.12, 27.98 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>E.P. JAIME TORRES BODET</strong><p></p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.42, 27.625 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESC. SEC. TENCINA NO. 23</strong><p></p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.41, 27.647 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESC. SEC. TENCINA NO. 28</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.29, 27.644 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>JULIO VILLA</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.29, 27.644 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESCUELA PRIMARIA FLORENTINO LÓPEZ CERVANTES</strong><p>El Centinela, 85499 Heroica Guaymas, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.91, 27.872 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>CBTIS 37</strong><p>Calle Hidalgo 1925, Yukujimari, 85120 Cd Obregón, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.96, 27.496 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESC. SEC. TEC. No. 70</strong><p>Calle Rosendo Montiel 1204, San Antonio, 85050 San Antonio, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.91, 27.514 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>CONALEP-PLANTEL CD. OBREGON</strong><p>Vicente Mexia 1433a, Nuevo Cajeme, Cd Obregón, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.92, 27.508 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>COBACH No. 1</strong><p>Prof Antonio Caso 1276, Municipio Libre, 85080 Cd Obregón, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.93, 27.477 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESC. SEC. GRAL. No. 7</strong><p>Misión Sta. Ana, Kino, 85194 Cd Obregón, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.94, 27.445 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>CBTIS 188</strong><p>Plan de San Luis 433A, Luis Echeverría, Russo Vogel, 85199 Cd Obregón, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.95, 27.456 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESC. PRIM. GRAL. LÁZARO CÁRDENAS</strong><p>Calle 1400, Quetchehueca, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.95, 27.262 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESC. SEC. BENITO JUÁREZ No. 23</strong><p></p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.04, 27.354  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>CBTA No. 38</strong><p>20 de Noviembre 216, Tobarito, 85204 Marte R. Gómez, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.89, 27.368 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESC. PRIM. RUFFO E. VITTELA</strong><p>Álvaro Obregón 101, Esperanza, 85210 Esperanza, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.93, 27.581 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>GIMNACIO MUNICIPAL \"\"MANUEL LIRA GARCIA\"\"</strong><p>Guadalupe Victoria 12, Campestre, 85160 Cd Obregón, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.94, 27.482 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>CENTRO DE USOS MULTIPLES (CUM)</strong><p>Calle Sufragio Efectivo 130, Centro, Fundo Legal, 85000 Cd Obregón, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -109.93, 27.494 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>HABITAD \"\"COMBATE\"\"</strong><p>Ocotlán 49, XX Cafe Combate, 83165 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.92, 29.106 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ALBERGUE CASA AMIGA</strong><p>Calle Jesús García 100, Centro, 83000 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [  -110.95, 29.08 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>HABITAD \"\"OLIVOS\"\"</strong><p>Calle Alamo Blanco 419, 83284 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.98, 29.032  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>HABITAD \"\"MINITAS\"\"</strong><p>Biznaga LB, Palo Verde, 83280 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.99, 29.044 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>HABITAT \"\"SOLIDARIDAD\"\"</strong><p>Sierra Maycoba, Norberto Ortega, 83116 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111, 29.137    ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>HABITAD \"\"INTERNACIONAL\"\"</strong><p>Av. Prof.ª Rosario Padre de Carpio 1474, Internacional, 83170 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111.02, 29.111 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESTACION DE BOMBEROS CENTRO</strong><p>Calz de Castilla, Real de Quiroga, 83220 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111.02, 29.089 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESTACION DE BOMBEROS NORTE</strong><p>Calle López del Castillo, Villas del Cortijo, 83106 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -110.99, 29.144 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESTACION DE BOMBEROS SUR</strong><p>Blvrd Cimarrón 52, Nuevo Hermosillo, 83296 Hermosillo, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [  -110.93, 29.02 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>HABITAD \"\"MIGUEL ALEMAN\"\"</strong><p>Rosario Ibarra, Las Palmas, 83116 Miguel Alemán, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111.5, 28.848 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESTACION BOMBEROS \"\"MIGUEL ALEMAN\"\"</strong><p>Ricardo Flores Magón SN-S, Aguayo Porchas, 83345 Miguel Alemán, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111.49, 28.842 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESTACION DE BOMBEROS BAHIA DE KINO</strong><p>Av Salina Cruz 30, Centro, Bahía de Kino, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111.94, 28.823 ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>ESCUELA PRIMARIA \"\"LÁZARO CÁRDENAS\"\"(BAHIA DE KINO)</strong><p>Bv. Padre Francisco Eusebio Kino, Centro, Bahía de Kino, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111.94, 28.824  ] 
-} 
-},
-{
- "type": "Feature",
-"properties": {
- "description": "<strong>SALON PARROQUIAL</strong><p>Av. Puerto Vallarta 103, Burro Lindo, Bahía de Kino, Son., Mexico</p>",
-"icon": "circle" 
-},
-"geometry": {
- "type": "Point",
-"coordinates": [ -111.94, 28.825 ] 
-} 
-} 
-] 
-} 
-});
-      map.addLayer({
-        "id": "sonora",
-        "type": "symbol",
-        "source":"sonora",
-        "layout": {
-            "icon-image": "{icon}-15",
-            "icon-allow-overlap": true
-        }
-        /*,
-      'paint': {
-                'icon-color': '#088'
-      }*/
-    //});
-
     map.addSource("places", {
         "type": "geojson",
         "data": {
@@ -2777,8 +2314,8 @@ map.on('load', function () {
                 "SHAPE.LEN": 340729.878642112
             }
                               },
-                             
-                             
+
+
                  {
             "type": "Feature",
             "geometry": {
@@ -3178,7 +2715,519 @@ map.on('load', function () {
                 'fill-opacity': 0.4
             }
         });
+
+  ///////////////////////////////////////////
+          map.addSource('hundim', {
+            'type': 'geojson',
+            'data': {
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "MultiPolygon",
+                "coordinates": [
+                        [
+                            [
+                                -105.127999999707,
+                                24.6377999891041
+                            ],
+                            [
+                                -105.063999999713,
+                                24.699199989592
+                            ],
+                            [
+                                -104.875999999821,
+                                24.684099989343
+                            ],
+                            [
+                                -104.735999999919,
+                                24.7869999894972
+                            ],
+                            [
+                                -104.681000000488,
+                                24.7982999896563
+                            ],
+                            [
+                                -104.602999999698,
+                                24.7602999893144
+                            ],
+                            [
+                                -104.556999999938,
+                                24.7214999889056
+                            ],
+                            [
+                                -104.567000000231,
+                                24.6614999895159
+                            ],
+                            [
+                                -104.61999999968,
+                                24.5806999896873
+                            ],
+                            [
+                                -104.582999999946,
+                                24.4421999892227
+                            ],
+                            [
+                                -104.547999999838,
+                                24.3931999897961
+                            ],
+                            [
+                                -104.449000000257,
+                                24.3854999893757
+                            ],
+                            [
+                                -104.286000000255,
+                                24.4486999898915
+                            ],
+                            [
+                                -103.954000000332,
+                                24.365799989961
+                            ],
+                            [
+                                -103.866000000226,
+                                24.3773999892602
+                            ],
+                            [
+                                -103.820999999644,
+                                24.3383999897305
+                            ],
+                            [
+                                -103.727000000267,
+                                24.0514999899896
+                            ],
+                            [
+                                -103.711999999704,
+                                23.8626999896794
+                            ],
+                            [
+                                -103.454000000353,
+                                23.4987999903213
+                            ],
+                            [
+                                -103.428999999884,
+                                23.3499999900405
+                            ],
+                            [
+                                -103.269999999744,
+                                23.0041999909423
+                            ],
+                            [
+                                -103.22599999987,
+                                22.9749999903396
+                            ],
+                            [
+                                -102.899000000486,
+                                22.9296999905398
+                            ],
+                            [
+                                -102.767999999537,
+                                22.8516999906714
+                            ],
+                            [
+                                -102.647000000306,
+                                22.7336999911435
+                            ],
+                            [
+                                -102.383999999723,
+                                22.5273999905832
+                            ],
+                            [
+                                -102.221000000161,
+                                22.4789999907726
+                            ],
+                            [
+                                -102.079000000469,
+                                22.360799990747
+                            ],
+                            [
+                                -101.917000000231,
+                                22.2921999915428
+                            ],
+                            [
+                                -101.752999999865,
+                                22.1140999914827
+                            ],
+                            [
+                                -101.580550784378,
+                                22.0788311838094
+                            ],
+                            [
+                                -101.427999999888,
+                                21.8666999918391
+                            ],
+                            [
+                                -101.271724643518,
+                                21.6310590682931
+                            ],
+                            [
+                                -101.116000072534,
+                                21.6213590681382
+                            ],
+                            [
+                                -100.782550784567,
+                                21.5343967313412
+                            ],
+                            [
+                                -100.589550784741,
+                                21.4245967321581
+                            ],
+                            [
+                                -100.524550784192,
+                                21.3049967319185
+                            ],
+                            [
+                                -100.44055078458,
+                                21.0659967320225
+                            ],
+                            [
+                                -100.451550784766,
+                                20.9764967317515
+                            ],
+                            [
+                                -100.41900000043,
+                                20.9013999924646
+                            ],
+                            [
+                                -100.366000000025,
+                                20.7817999919523
+                            ],
+                            [
+                                -100.259000000197,
+                                20.7414999926289
+                            ],
+                            [
+                                -100.281999999504,
+                                20.5625999928678
+                            ],
+                            [
+                                -99.9319999999178,
+                                20.2520999926709
+                            ],
+                            [
+                                -99.8583999995249,
+                                20.1321999928143
+                            ],
+                            [
+                                -99.6578000003851,
+                                19.981299992628
+                            ],
+                            [
+                                -99.6044999997947,
+                                19.9906999933163
+                            ],
+                            [
+                                -99.4969000004209,
+                                20.1089999927393
+                            ],
+                            [
+                                -99.2586000001206,
+                                20.4346999928382
+                            ],
+                            [
+                                -99.1920000001196,
+                                20.6228999924704
+                            ],
+                            [
+                                -99.1483999998042,
+                                20.6919999921893
+                            ],
+                            [
+                                -99.1053000003848,
+                                20.7113999923156
+                            ],
+                            [
+                                -99.0310999997624,
+                                20.6705999927249
+                            ],
+                            [
+                                -98.6847999997389,
+                                20.3073999923737
+                            ],
+                            [
+                                -98.5268000003378,
+                                20.2052999926015
+                            ],
+                            [
+                                -98.4443000000359,
+                                20.0645999927183
+                            ],
+                            [
+                                -98.296399999741,
+                                20.0121999932869
+                            ],
+                            [
+                                -98.2433000001554,
+                                20.0111999933254
+                            ],
+                            [
+                                -98.2354999997566,
+                                19.871699993271
+                            ],
+                            [
+                                -98.0686999998758,
+                                19.7290999934177
+                            ],
+                            [
+                                -97.9556000002786,
+                                19.5675999931471
+                            ],
+                            [
+                                -97.9672999998819,
+                                19.5180999937703
+                            ],
+                            [
+                                -98.0746999998177,
+                                19.4505999936409
+                            ],
+                            [
+                                -98.466800000251,
+                                19.438099993629
+                            ],
+                            [
+                                -98.5521999995676,
+                                19.3997999936435
+                            ],
+                            [
+                                -98.6594999996688,
+                                19.3119999930796
+                            ],
+                            [
+                                -98.7979999998055,
+                                19.2544999939386
+                            ],
+                            [
+                                -98.8724999995628,
+                                19.2256999932109
+                            ],
+                            [
+                                -99.2197999995584,
+                                19.3398999935026
+                            ],
+                            [
+                                -99.6214000002927,
+                                19.3740999930578
+                            ],
+                            [
+                                -99.726900000411,
+                                19.4148999933095
+                            ],
+                            [
+                                -100.041999999664,
+                                19.7653999934511
+                            ],
+                            [
+                                -100.189999999626,
+                                19.8558999935219
+                            ],
+                            [
+                                -100.49699999969,
+                                19.986499993282
+                            ],
+                            [
+                                -100.795000000135,
+                                20.1363999928898
+                            ],
+                            [
+                                -101.007999999615,
+                                20.3255999928938
+                            ],
+                            [
+                                -101.199000000012,
+                                20.2457999930978
+                            ],
+                            [
+                                -101.390999999665,
+                                20.2055999929564
+                            ],
+                            [
+                                -101.709000000241,
+                                19.9755999927
+                            ],
+                            [
+                                -101.974000000105,
+                                19.8645999927326
+                            ],
+                            [
+                                -101.994999999824,
+                                19.8743999927302
+                            ],
+                            [
+                                -101.986999999838,
+                                20.1529999925548
+                            ],
+                            [
+                                -102.050999999805,
+                                20.2221999930138
+                            ],
+                            [
+                                -102.115999999934,
+                                20.2714999928597
+                            ],
+                            [
+                                -102.148000000081,
+                                20.3109999930799
+                            ],
+                            [
+                                -102.233000000106,
+                                20.3301999929319
+                            ],
+                            [
+                                -102.726000000256,
+                                20.5240999926462
+                            ],
+                            [
+                                -102.737000000057,
+                                20.5538999925947
+                            ],
+                            [
+                                -102.504999999653,
+                                20.7752999919184
+                            ],
+                            [
+                                -102.367999999578,
+                                20.9954999917928
+                            ],
+                            [
+                                -102.347999999831,
+                                21.0951999923089
+                            ],
+                            [
+                                -102.423000000066,
+                                21.1342999918781
+                            ],
+                            [
+                                -102.486999999984,
+                                21.1335999917482
+                            ],
+                            [
+                                -102.6050000002,
+                                21.0726999925276
+                            ],
+                            [
+                                -102.678999999934,
+                                21.0021999917695
+                            ],
+                            [
+                                -102.689000000099,
+                                20.9722999920105
+                            ],
+                            [
+                                -102.838000000427,
+                                20.8808999920751
+                            ],
+                            [
+                                -102.932999999902,
+                                20.7801999925491
+                            ],
+                            [
+                                -102.941999999663,
+                                20.6905999923214
+                            ],
+                            [
+                                -102.995000000143,
+                                20.659999992463
+                            ],
+                            [
+                                -103.229000000316,
+                                20.6267999927891
+                            ],
+                            [
+                                -103.337000000269,
+                                20.6747999923539
+                            ],
+                            [
+                                -103.555000000378,
+                                20.8800999921946
+                            ],
+                            [
+                                -103.857000000215,
+                                20.9839999922885
+                            ],
+                            [
+                                -104.347000000417,
+                                21.3220999915079
+                            ],
+                            [
+                                -104.393999999812,
+                                21.4503999917139
+                            ],
+                            [
+                                -104.44400000046,
+                                21.7378999918296
+                            ],
+                            [
+                                -104.461999999589,
+                                21.9962999914119
+                            ],
+                            [
+                                -104.469000000393,
+                                22.2847999914836
+                            ],
+                            [
+                                -104.519000000413,
+                                22.5324999913696
+                            ],
+                            [
+                                -104.663000000438,
+                                23.0167999909159
+                            ],
+                            [
+                                -104.780000000086,
+                                23.3026999905533
+                            ],
+                            [
+                                -104.918000000403,
+                                23.538099990437
+                            ],
+                            [
+                                -105.088000000041,
+                                24.0712999902155
+                            ],
+                            [
+                                -105.171000000393,
+                                24.2781999900514
+                            ],
+                            [
+                                -105.194000000278,
+                                24.6459999891193
+                            ],
+                            [
+                                -105.161999999543,
+                                24.666799989572
+                            ],
+                            [
+                                -105.127999999707,
+                                24.6377999891041
+                            ]
+                        ]
+                    ]
+             },
+            "properties": {
+                "OBJECTID": "1",
+                "ZONA": "Suceptible",
+                "SHAPE": "geometry",
+                "SHAPE.AREA": 132915710816.46,
+                "SHAPE.LEN": 2501726.8106735
+            }
+        }
+    ]
+
+}});
+          map.addLayer({
+            'id': 'routa',
+            'type': 'fill',
+            'source': 'hundim',
+            'layout': {},
+            'paint': {
+                'fill-color': '#B71C1C',
+                'fill-opacity': 0.4
+            }
+          });
+  ///////////////////////////////////////////
 });
+
+
 
 map.on('click', function (e) {
     var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
