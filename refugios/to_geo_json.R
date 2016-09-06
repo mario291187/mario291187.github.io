@@ -2,10 +2,10 @@ library(data.table)
 library(RJSONIO)
 
 ## Read in data
-data <- fread("Refugiosgeoref-Sonora.csv")
-
+#data <- fread("Refugiosgeoref-Sonora.csv")
+data <- fread("Refugiosgeoref-Sinaloa.csv")
 ## Clean data
-data_clean <- data[,c(2, 3, 22, 23), with = FALSE]
+data_clean <- data[,c(2, 5, 18, 19), with = FALSE]
 data_clean <- na.omit(data_clean)
 
 ## Construct map body
@@ -15,17 +15,17 @@ map <- list("type" = "geojson",
 ## Construct features
 features <- list()
 for(i in 1:nrow(data_clean)){
-    name    <- paste0("<strong>", data_clean$refugio[i], "</strong>")
-    direcc  <- paste0("<p>", data_clean$direccion[i], "</p>")
+    name    <- paste0("<strong>", data_clean$Refugio[i], "</strong>")
+    direcc  <- paste0("<p>", data_clean$Dirección[i], "</p>")
     desc    <- paste0(name, direcc)
     feature <- list("type" = "Feature",
                    "properties" = list(
-                       "descrpition" = desc,
+                       "description" = desc,
                        "icon" = "circle"
                    ),
                    "geometry" = list(
                        "type" = "Point",
-                       "coordinates" = c(data_clean$latitud[i], data_clean$longitud[i])
+                       "coordinates" = c(data_clean$longitude[i], data_clean$latitude[i])
                    )
                    )
     features[[i]] <- feature
@@ -36,4 +36,4 @@ map$data$features <- features
 
 ## Save results
 exportJson <- toJSON(map)
-write(exportJson, "test.json")
+write(exportJson, "sinaloa.json")

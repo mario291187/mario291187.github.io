@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -80,6 +81,468 @@
     });
 
 map.on('load', function () {
+/*  map.addSource('sonora',
+                {
+ "type": "geojson",
+"data": {
+ "type": "FeatureCollection",
+"features": [
+ {
+ "type": "Feature",
+"properties": {
+ "description": "<strong>E.P. FERNANDO F. DWRAF</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.9, 27.909  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ALBERGUE COLONIA POPULAR</strong><p>Blvd. Perif. 91A, Las Colinas, 85440 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.92 ,27.911 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>DIF MUNICIPAL</strong><p>Magdalena 8, Los Ríos, 85440 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92 ,27.92  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ALBERGUE 23 MARZO GUAYMAS</strong><p>Ceiba 7, 5 de Mayo, Nacionalización del Golfo de California, 85477 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 27.901  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CDC FATIMA GUAYMAS</strong><p>Arroyo, Adolfo de la Huerta, Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.88, 27.941 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ITSON</strong><p>Biblioteca, Sonora, Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 27.968  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>BOMBEROS NORTE GUAYMAS</strong><p>García López SN-C MINISUPER FEMOSA, Albatros, 85420 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.93, 27.941  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>PRIMARIA CUAHUTEMOC</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.9, 27.909 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>E.P. NIÑOS HEROES DE CHAPULTEPEC</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.12, 27.98 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>E.P. JAIME TORRES BODET</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.42, 27.625 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. TENCINA NO. 23</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.41, 27.647 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. TENCINA NO. 28</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.29, 27.644 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>JULIO VILLA</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.29, 27.644 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA FLORENTINO LÓPEZ CERVANTES</strong><p>El Centinela, 85499 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.91, 27.872 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CBTIS 37</strong><p>Calle Hidalgo 1925, Yukujimari, 85120 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.96, 27.496 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. TEC. No. 70</strong><p>Calle Rosendo Montiel 1204, San Antonio, 85050 San Antonio, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.91, 27.514 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CONALEP-PLANTEL CD. OBREGON</strong><p>Vicente Mexia 1433a, Nuevo Cajeme, Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.92, 27.508 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>COBACH No. 1</strong><p>Prof Antonio Caso 1276, Municipio Libre, 85080 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.477 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. GRAL. No. 7</strong><p>Misión Sta. Ana, Kino, 85194 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.94, 27.445 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CBTIS 188</strong><p>Plan de San Luis 433A, Luis Echeverría, Russo Vogel, 85199 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.95, 27.456 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIM. GRAL. LÁZARO CÁRDENAS</strong><p>Calle 1400, Quetchehueca, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.95, 27.262 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. BENITO JUÁREZ No. 23</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.04, 27.354  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CBTA No. 38</strong><p>20 de Noviembre 216, Tobarito, 85204 Marte R. Gómez, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.89, 27.368 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIM. RUFFO E. VITTELA</strong><p>Álvaro Obregón 101, Esperanza, 85210 Esperanza, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.581 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>GIMNACIO MUNICIPAL \"\"MANUEL LIRA GARCIA\"\"</strong><p>Guadalupe Victoria 12, Campestre, 85160 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.94, 27.482 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CENTRO DE USOS MULTIPLES (CUM)</strong><p>Calle Sufragio Efectivo 130, Centro, Fundo Legal, 85000 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.494 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"COMBATE\"\"</strong><p>Ocotlán 49, XX Cafe Combate, 83165 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 29.106 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ALBERGUE CASA AMIGA</strong><p>Calle Jesús García 100, Centro, 83000 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.95, 29.08 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"OLIVOS\"\"</strong><p>Calle Alamo Blanco 419, 83284 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.98, 29.032  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"MINITAS\"\"</strong><p>Biznaga LB, Palo Verde, 83280 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.99, 29.044 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAT \"\"SOLIDARIDAD\"\"</strong><p>Sierra Maycoba, Norberto Ortega, 83116 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111, 29.137    ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"INTERNACIONAL\"\"</strong><p>Av. Prof.ª Rosario Padre de Carpio 1474, Internacional, 83170 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.02, 29.111 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS CENTRO</strong><p>Calz de Castilla, Real de Quiroga, 83220 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.02, 29.089 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS NORTE</strong><p>Calle López del Castillo, Villas del Cortijo, 83106 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.99, 29.144 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS SUR</strong><p>Blvrd Cimarrón 52, Nuevo Hermosillo, 83296 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.93, 29.02 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"MIGUEL ALEMAN\"\"</strong><p>Rosario Ibarra, Las Palmas, 83116 Miguel Alemán, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.5, 28.848 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION BOMBEROS \"\"MIGUEL ALEMAN\"\"</strong><p>Ricardo Flores Magón SN-S, Aguayo Porchas, 83345 Miguel Alemán, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.49, 28.842 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS BAHIA DE KINO</strong><p>Av Salina Cruz 30, Centro, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.823 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA \"\"LÁZARO CÁRDENAS\"\"(BAHIA DE KINO)</strong><p>Bv. Padre Francisco Eusebio Kino, Centro, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.824  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>SALON PARROQUIAL</strong><p>Av. Puerto Vallarta 103, Burro Lindo, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.825 ] 
+} 
+} 
+] 
+} 
+});
+      map.addLayer({
+        "id": "sonora",
+        "type": "symbol",
+        "source":"sonora",
+        "layout": {
+            "icon-image": "{icon}-15",
+            "icon-allow-overlap": true
+        }
+        /*,
+      'paint': {
+                'icon-color': '#088'
+      }*/
+    //});
 
     map.addSource("places", {
         "type": "geojson",
@@ -207,145 +670,1701 @@ map.on('load', function () {
               "coordinates": [-109.709881, 23.073307]
           }
 
-      },
-                //guaymas
-
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"<strong></strong>",
-              "icon": "circle",
-          },
-          "geometry": {
-              "type": "Point",
-              "coordinates":[ - 110.8980833, 27.90891667]
-          }
-      },
-
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"<strong></strong>",
-              "icon": "circle"
-          },
-          "geometry": {
-              "type": "Point","coordinates":[-110.922, 27.91125	]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point","coordinates":[-110.9161194, 27.92012778	]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point","coordinates":[-110.9228556, 27.90068333	]
-          }
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point","coordinates":[ -110.8792444,  27.94053889	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point","coordinates":[ -110.9195278, 27.96805556	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point","coordinates":[  	-110.9326889,  27.94111389]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point","coordinates":[ -110.8980833,  27.90891667	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point", "coordinates":[-110.1218333, 27.97978333	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point",  "coordinates":[-110.41585, 27.62473333	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point", "coordinates":[ -110.4086667,27.6474	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point", "coordinates":[ -110.2942167,27.64381667	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-          "type": "Point", "coordinates":[ -110.2942167,27.64381667	]}
-      },
-      {
-          "type": "Feature",
-          "properties":{
-              "description":"",
-              "icon": "circle"
-          },
-          "geometry": {
-              "type": "Point",          "coordinates":[-110.9136944,27.87188889	]
-
-          }
-      }
-      //end guaymas
-
+            },
+     {
+ "type": "Feature",
+"properties": {
+ "description": "<strong>E.P. FERNANDO F. DWRAF</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.9, 27.909  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ALBERGUE COLONIA POPULAR</strong><p>Blvd. Perif. 91A, Las Colinas, 85440 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.92 ,27.911 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>DIF MUNICIPAL</strong><p>Magdalena 8, Los Ríos, 85440 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92 ,27.92  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ALBERGUE 23 MARZO GUAYMAS</strong><p>Ceiba 7, 5 de Mayo, Nacionalización del Golfo de California, 85477 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 27.901  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CDC FATIMA GUAYMAS</strong><p>Arroyo, Adolfo de la Huerta, Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.88, 27.941 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ITSON</strong><p>Biblioteca, Sonora, Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 27.968  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>BOMBEROS NORTE GUAYMAS</strong><p>García López SN-C MINISUPER FEMOSA, Albatros, 85420 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.93, 27.941  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>PRIMARIA CUAHUTEMOC</strong><p>Sánchez Taboada 1004, El Rastro, 85460 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.9, 27.909 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>E.P. NIÑOS HEROES DE CHAPULTEPEC</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.12, 27.98 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>E.P. JAIME TORRES BODET</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.42, 27.625 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. TENCINA NO. 23</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.41, 27.647 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. TENCINA NO. 28</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.29, 27.644 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>JULIO VILLA</strong><p>Lázaro Cárdenas 26, Centro, Vícam, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.29, 27.644 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA FLORENTINO LÓPEZ CERVANTES</strong><p>El Centinela, 85499 Heroica Guaymas, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.91, 27.872 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CBTIS 37</strong><p>Calle Hidalgo 1925, Yukujimari, 85120 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.96, 27.496 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. TEC. No. 70</strong><p>Calle Rosendo Montiel 1204, San Antonio, 85050 San Antonio, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.91, 27.514 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CONALEP-PLANTEL CD. OBREGON</strong><p>Vicente Mexia 1433a, Nuevo Cajeme, Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.92, 27.508 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>COBACH No. 1</strong><p>Prof Antonio Caso 1276, Municipio Libre, 85080 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.477 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. GRAL. No. 7</strong><p>Misión Sta. Ana, Kino, 85194 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.94, 27.445 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CBTIS 188</strong><p>Plan de San Luis 433A, Luis Echeverría, Russo Vogel, 85199 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.95, 27.456 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIM. GRAL. LÁZARO CÁRDENAS</strong><p>Calle 1400, Quetchehueca, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.95, 27.262 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SEC. BENITO JUÁREZ No. 23</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.04, 27.354  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CBTA No. 38</strong><p>20 de Noviembre 216, Tobarito, 85204 Marte R. Gómez, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.89, 27.368 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIM. RUFFO E. VITTELA</strong><p>Álvaro Obregón 101, Esperanza, 85210 Esperanza, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.581 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>GIMNACIO MUNICIPAL \"\"MANUEL LIRA GARCIA\"\"</strong><p>Guadalupe Victoria 12, Campestre, 85160 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.94, 27.482 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CENTRO DE USOS MULTIPLES (CUM)</strong><p>Calle Sufragio Efectivo 130, Centro, Fundo Legal, 85000 Cd Obregón, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -109.93, 27.494 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"COMBATE\"\"</strong><p>Ocotlán 49, XX Cafe Combate, 83165 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.92, 29.106 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ALBERGUE CASA AMIGA</strong><p>Calle Jesús García 100, Centro, 83000 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.95, 29.08 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"OLIVOS\"\"</strong><p>Calle Alamo Blanco 419, 83284 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.98, 29.032  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"MINITAS\"\"</strong><p>Biznaga LB, Palo Verde, 83280 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.99, 29.044 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAT \"\"SOLIDARIDAD\"\"</strong><p>Sierra Maycoba, Norberto Ortega, 83116 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111, 29.137    ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"INTERNACIONAL\"\"</strong><p>Av. Prof.ª Rosario Padre de Carpio 1474, Internacional, 83170 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.02, 29.111 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS CENTRO</strong><p>Calz de Castilla, Real de Quiroga, 83220 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.02, 29.089 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS NORTE</strong><p>Calle López del Castillo, Villas del Cortijo, 83106 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -110.99, 29.144 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS SUR</strong><p>Blvrd Cimarrón 52, Nuevo Hermosillo, 83296 Hermosillo, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [  -110.93, 29.02 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HABITAD \"\"MIGUEL ALEMAN\"\"</strong><p>Rosario Ibarra, Las Palmas, 83116 Miguel Alemán, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.5, 28.848 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION BOMBEROS \"\"MIGUEL ALEMAN\"\"</strong><p>Ricardo Flores Magón SN-S, Aguayo Porchas, 83345 Miguel Alemán, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.49, 28.842 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESTACION DE BOMBEROS BAHIA DE KINO</strong><p>Av Salina Cruz 30, Centro, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.823 ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA \"\"LÁZARO CÁRDENAS\"\"(BAHIA DE KINO)</strong><p>Bv. Padre Francisco Eusebio Kino, Centro, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.824  ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>SALON PARROQUIAL</strong><p>Av. Puerto Vallarta 103, Burro Lindo, Bahía de Kino, Son., Mexico</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ -111.94, 28.825 ] 
+} 
+},
+     {
+ "type": "Feature",
+"properties": {
+ "description": "<strong>COBAES No. 54</strong><p>C. DEGOLLADO Y M. ORDOÑEZ, CD. DE LOS MOCHIS.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.9935639", "25.78227222" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>COBAES No. 02</strong><p>C. GUILLERMO PRIETO Y CUAUHTÉMOC, CD. DE LOS MOCHIS.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.9941444", "25.78492222" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA SECUNDARIA \"\"IMA\"\".</strong><p>C. BIENESTAR Y NIÑOS HEROES, CD. DE LOS MOCHIS.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.9920806", "25.77956389" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA SECUNDARIA RÍO ZUAQUE.</strong><p>DOM. CONOCIDO, SAN MIGUEL ZAPOTITLÁN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-109.0306917", "25.94441389" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA ANTONIO ROSALES.</strong><p>DOM. CONOCIDO, HIGUERA DE ZARAGOZA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-109.3007417", "25.96793889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>COBAES.</strong><p>DOM. CONOCIDO VILLA GUSTAVO DÍAZ ORDAZ (EL CARRIZO).</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-109.0323778", "26.27289722" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>COBAES 03.</strong><p>DOM. CONOCIDO, VILLA DE AHOME, SIND. DE AHOME.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-109.1764944", "25.92195278" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Escuela Secundaria \"\"Adolfo López Mateos\"\".</strong><p>Carretera a Guamuchil S/N, Cd. de angostura.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.1610194", "25.3673" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Club Chinitos A.C.</strong><p>Av. Benito Juárez, Poblado de Chinitos (Col. Agrícola Independencia).</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.9150667", "25.05654167" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Secundaria Joaquín Vizcarra Tiznado.</strong><p>C. Alfredo Buenfil y Profr. Emilio Chaparro, frente a Unidad Deportiva, Poblado de Alhuey.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.1273694", "25.38183611" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Escuela Primaria Gabriel Leyva Solano.</strong><p>Dom. Conocido, enseguida de la techumbre de maquinaria de Mayo Beto, La Ilama, Sind. de La Ilama.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.18175", "25.26458889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Escuela Primaria Jesús Castro.</strong><p>Calle Río Bravo y Sonora, La Reforma.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.0591444", "25.08324167" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>UAS.</strong><p>AVENIDA GABRIEL LEYVA SOLANO, EL PUEBLITO, DE ESTA CABECERA MUNICIPAL.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.5545333", "25.35246111" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>EDIFICIO CEBEB (CENTRO DE MAESTROS).</strong><p>BLVD. JUAN S.MILLAN, COLINAS DEL CAMICHIN, CABECERA MUNICIPAL.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.5577944", "25.35128889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CEJUS (CENTRO EDUCATIVO \"\"JUSTO SIERRA\"\")</strong><p>SINDICATURA DE SURUTATO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.5648944", "25.82913056" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>SECUNDARIA TÉCNICA # 68.</strong><p>SINDICATURA DE OTATILLOS.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.3328389", "25.38628333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>JARDÍN DE NIÑOS \"\"PEDRO CARREÓN\"\".</strong><p>EL RIYITO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.5434944", "25.33529444" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>PRIMARIA JOSEFA ORTIZ DE DOMÍNGUEZ</strong><p>EL RIYITO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.5434944", "25.33529444" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA 20 DE NOVIEMBRE</strong><p>BOULEVARD VICENTE GUERRERO Y FRANCISCO VILLA, CENTRO, CD. DE CHOIX.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.3257028", "26.70904444" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA ANTONIO CASO</strong><p>FRENTE A LA CANCHA DE BASQUET, SINDICATURA DE BACA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.4493806", "26.797975" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA JUAN DE LA BARRERA</strong><p>AGUA CALIENTE GRANDE</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.34945", "26.53628333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA 16 DE SEPTIEMBRE</strong><p>BAYMENA</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.2932194", "26.521925" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SECUNDARIA IGNACIO RAMIREZ</strong><p>SAN JAVIER</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.4591861", "26.67270278" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA BENITO JUÁREZ.</strong><p>C. VICENTE GUERRERO, CD. DE CONCORDIA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.0665389", "23.29098333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. MIGUEL HIDALGO.</strong><p>CAMINO A LA AGÜITA CALIENTE, CD. DE CONCORDIA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA GRAL. EMILIANO ZAPATA.</strong><p>CALLE MARGARITA MAZA DE JUÁREZ, CD. DE CONCORDIA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.0616556", "23.28471389" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA JOSEFA ORTIZ DE DOMÍNGUEZ.</strong><p>CALLE ISIDRO PERAZA, CD. DE CONCORDIA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.0653194", "23.28851667" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SECUNDARIA VENUSTIANO CARRANZA.</strong><p>CALLE ÁNGEL FLORES S/N, CD. DE CONCORDIA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.0644083", "23.29159722" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PREPARATORIA UAS.</strong><p>CARRETERA FED. No. 40 MAZATLÁN-DURANGO, CD. DE CONCORDIA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.0560694", "23.28985833" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PREPARATORIA COBAES.</strong><p>CARRETERA A TEPUXTLA, CD. DE CONCORDIA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.0630917", "23.29205" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA VENUSTIANO CARRANZA.</strong><p>ANTONIO ROSALES, COL. CENTRO, CD. DE COSALÁ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA BENITO JUÁREZ.</strong><p>PUEBLO DE ALAYÁ, SIND. DE ALAYÁ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>SECUNDARIA No. 14.</strong><p>SANTA CRUZ DE ALAYÁ, SINDICATURA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>TELESECUNDARIA 138.</strong><p>CHAPALA, SIND. DE SANTA CRUZ DE ALAYÁ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>TELESECUNDARIA No. 21 R.</strong><p>SAN MIGUEL DE LAS MESAS, SIND. DE SANTA CRUA DE ALAYÁ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>POLIDEPORTIVO U.A.S.</strong><p>C. Josefa O. de Domínguez, Complejo C.U. (Ciudad Universitaria), Cd. de Culiacán.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.3801111", "24.82383056" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Universidad de Occidente</strong><p>Blvd. Lola Beltrán y Blvd. Enrique Sánchez Alonso, 4 de Marzo, Cd. de Culiacán.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.4326389", "24.81283333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Parque Ernesto Millan Gimnasio de Karate y Polideportivo</strong><p>México 68 y Av. Alvaro Obregón, República Mexicana, Cd. de Culiacán.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.3908722", "24.77525833" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>DIF Vallado</strong><p>Puerto Barrios y Ensenada, entre Puerto Escondido y la Paz, Vallado, Cd. de Culiacán.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.4167167", "24.78914722" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria Gral. Ángel Flores y Esc. Prim. Guadalupe Victoria (La Escuelona).</strong><p>Matamoros # 73\n Cd. de Eldorado, Mpio. de Eldorado. Nota: Las dos escuelas comparten las mismas instalaciones.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.3624333", "24.31889444" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong></strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#ERROR!" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria Antonio Rosales.</strong><p>Calle Morelos, Col. Centro, Cd. de Costa Rica.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.3925806", "24.59235" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Preparatoria UAS El Fuerte.</strong><p>Carretera El Fuerte- El Mahone, Km 0.1, Cd. de El Fuerte.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.6157694", "26.42611944" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria José Rentería.</strong><p>Calle Álvaro Obregón, Colonia Centro, Cd. de El Fuerte.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.6180778", "26.41512222" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Escuela Secundaria Ignacio Ramírez.</strong><p>Calle Álvaro Obregón, Col. Pablo Macías, Cd. de El Fuerte.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.6169778", "26.41227222" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Auditorio “Antonio Martínez”.</strong><p>Calle Miguel Hidalgo, Col. Centro, Cd. de El Fuerte.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.6192667", "26.42216389" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria Ángel Flores.</strong><p>C. Zaragoza y Morelos, Poblado de Mochicahui.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.9298306", "25.95253889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Escuela Primaria Vicente Lombardo.</strong><p>Frente al puente, Comunidad La Constancia.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.9048444", "25.96528611" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA \"\"GRAL. JOSÉ AGUILAR BARRAZA\"\".</strong><p>C. FCO. I. MADERO Y SAUL AGUILAR PICO, CD. DE LA CRUZ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA \"\"LAURA AGUILAR BARRAZA\"\".</strong><p>C.ANGEL FLORES, COL. MIRAMAR, CD. DE LA CRUZ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PREPARATORIA U.A.S. DE LA CRUZ.</strong><p>C. PEDRO INFANTE Y C. ÁNGEL FLORES, CD. DE LA CRUZ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ALBERGUE SEDESOL.</strong><p>CD. DE LA CRUZ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SECUNDARIA \"\"MARÍA GERTRUDIS SAMBLE CASTRO\"\".</strong><p>CD. DE LA CRUZ.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Gimnasio Municipal.</strong><p>Av. De la Juventud, esquina con Fco. I. Madero, Cd. de Escuinapa.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-105.7757889", "22.82827778" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Antiguo COBAES 42.</strong><p>Centro Educativo Toledo Corro, Salida Carretera a Teacapán, Cd. de Escuinapa.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-105.7931778", "22.81660556" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ICATSIN.</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CONALEP.</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Universidad de Occidente (U de O).</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \n \"\"6 de Enero\"\".</strong><p>Calle Benigno Valenzuela, esquina con Callejón Cuauhtémoc, Col. Tierra y Libertad, Cd. de Guasave.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.4615917", "25.57245833" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \n \"\"Lic. Justo Sierra\"\".</strong><p>Calle Nicolás Bravo, entre Independencia y Matamoros, Bamoa Pueblo.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.3447583", "25.70418333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. \"\"Rafael Ramírez\"\".</strong><p>Calle Rafeel Ramírez y Pino Suárez, El Burrión.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.4131806", "25.540275" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Casa Ejidal.</strong><p>Calle 7 y 8 Sinaloita, Juan José Ríos</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.8203111", "25.75586667" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \n \"\"Andres Galvez\"\"</strong><p>Av. Benito Juárez, entre 16 de Septiembre y 5 de Febrero, El Nio.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.4008444", "25.62468333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \"\"José María Morelos y Pavón\"\"</strong><p>Calle Morelos, entre Av. Rubén Gallardo y Miguel Valle Dávalos, San Rafael.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.3052583", "25.49338611" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Secundaria Tec. \n # 54.</strong><p>Calle 6 de Agosto y Calle 5, Corerepe.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.7076639", "25.62446111" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \n \"\"Profr. Jesús Ramírez\"\".</strong><p>Calle Francisco I. Madero, entre Av. Patricio Falomir y 4, Leon Fonseca.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.3434861", "25.73280833" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \"\"Inocencia Gil\"\".</strong><p>Calle Adolfo López Mateos, esquina Ramón Espinoza, La Brecha</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.4239528", "25.36716944" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \"\"Guillermo Nelson\"\".</strong><p>Calle Álvaro Obregón, entre Ángel Flores y Benito Juárez, Tamazula</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.4538944", "25.44731389" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Cobaes No. 14 \"\"Ignacia Arrayales de Castro\"\" .</strong><p>Carretera Bamoa-Estación Bamoa, frente a la bodega Términal, Estación Bamoa</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.319175", "25.70136944" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Secundaria \"\"Benito Juárez\"\".</strong><p>Blvd. Adolfo López Mateos, a un costado del Auditorio, Benito Juárez (Batamote)</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.6185444", "25.66475556" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Esc. Primaria \"\"Venustiano Carranza\"\".</strong><p>Calle 9 y Miguel Hidalgo, Comisaría de Gabriel Leyva Solano.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.6370833", "25.65944444" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. CONTABILIDAD Y ADMINISTRACION (ECAM).</strong><p>AV. DE LOS DEPORTES, CD. DE MAZATLÁN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.4249083", "23.23173056" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA DE TURISMO UAS.</strong><p>AV. UNIVERSIDAD Y LEONISMO, COL. AEROPUERTO, CD. DE MAZATLÁN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.4264528", "23.23218889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>INSTITUTO CULTURAL DE OCCIDENTE (ICO).</strong><p>CARRETERA INTERNACIONAL # 1202 Y CIRCUNVALACIÓN, COL. JACARANDA, CD. DE MAZATLÁN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.4201389", "23.24880556" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>SALÓN CLUB DE LEONES.</strong><p>AV. INSURGENTES # 1000, FRACC. FLAMINGOS, CD. DE MAZATLÁN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.4361694", "23.23771944" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CONALEP I.</strong><p>CARRET. INTERNAL SUR KM. 4, COL. AMPLIACIÓN II URIAS, CD. DE MAZATLÁN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.3658972", "23.21001389" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA SIXTO OSUNA.</strong><p>C. LIC. BENITO JUAREZ No. 211 Y 20 DE NOVIEMBRE, COL. CENTRO, POBLADO DE VILLA UNIÓN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.2199194", "23.18755833" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>FIGLOSNTE 27 CECOMA F/501 (CENTRO DE CONVENCIONES).</strong><p>AV. DEL DELFIN # 60303, FRACC. MARINA, CD. DE MAZATLÁN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-106.4557694", "23.28919722" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA SECUNDARIA # 86</strong><p>DOM. CONOCIDO, A UN COSTADO DE CANCHA DEPORTIVO, POBLADO DE CAIMANERO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.7493472", "24.95516111" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA TELE-SECUNDARIA 31 Y.</strong><p>DOM. CONOCIDO, CENTRO DEL POBLADO DE ZAPOTILLO, SIND. DE MELCHOR OCAMPO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.8401806", "25.08805" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CENTRO DE BACHILLERATO TECNOLÓGICO AGROPECUARIO.</strong><p>CALLE PRINCIPAL, CARRETERA RECOVECO- CAIMANERO, POBLADO DE RECOVECO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.7296056", "24.98658889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA IGNACIO ALLENDE (MAT) / DOROTEO ARANGO (VESP).</strong><p>CALLE PRINCIPAL, CARRETERA RECOVECO- CAIMANERO, POBLADO DE RECOVECO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.7272083", "24.99443889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA JUSTO SIERRA.</strong><p>CALLE AVIACIÓN S/N, A UN COSTADO DE DICONSA, POBLADO DE PERICOS.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.7042611", "25.08603056" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA TELESECUNDARIA 119 D.</strong><p>CALLE MOCORITO Y AV. SONORA, POSTE # 45, A UN COSTADO DEL CAMPO DEPORTIVO, COMUNIDAD DE RANCHO VIEJO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.7531056", "25.12508889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CONALEP 119.</strong><p>C. COR. GREGORIO CUEVAS Y CAMINO A LA BRECHA, CD. DE MOCORITO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.9175444", "25.47792222" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>DOMICILIO PARTICULAR.</strong><p>SR. JORGE ROBLES, DOM. PARTICULAR, DOM. CONOCIDO, ESTACIÓN RETES.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.7689417", "25.03238611" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA CORREGIDORA DE QUERETARO.</strong><p>DOM. CONOCIDO EN EL CENTRO DEL POBLADO, POTRERO DE LOS SÁNCHEZ, SIND. DE MELCHOR OCAMPO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.9017944", "25.10926389" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Centro de Seguridad Social (Asegurada del IMSS).</strong><p>Calle Almada Frente al DIF Municipal, Cd. de Navolato.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.6928972", "24.75760556" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Escuela Preparatoria de la UAS.</strong><p>Corredor Educativo, a un costado del COBAES, Carretera Navolato-El Castillo, Cd. de Navolato.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.6910306", "24.74999722" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Facultad de Contabilidad y Administración Extensión Navolato, de la UAS.</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Facultad de Informatica Navolato, de la UAS.</strong><p></p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>Centro de Idiomas de la UAS.</strong><p>Calle Almada y Rosales, Col. Centro, Cd. de Navolato.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-107.6967972", "24.76648889" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CLUB DE LEONES.</strong><p>C. LUIS DONALDO COLOSIO S/N, CD. DE EL ROSARIO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CLUB ROTARIO.</strong><p>C. MELCHOR OCAMPO Y BENITO JUÁREZ, CD. DE EL ROSARIO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CLUB DEPORTIVO PELIKANOS.</strong><p>CALLE 20 DE NOVIEMBRE Y JUAN CARRASCO, CD. DE EL ROSARIO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PREPARATORIA U.A.S.</strong><p>CALLEJÓN HACIENDA VIEJA Y VENUSTIANO CARRANZA, CD. DE EL ROSARIO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>SOCIEDAD MUTUALISTA MIGUEL HIDALGO (CLUB MIGUEL HIDALGO)</strong><p>CALLE MIGUEL HIDALGO No. 25, COL. CENTRO, CD. DE EL ROSARIO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PREPARATORIA CBTIS #45.</strong><p>Carretera a Mocorito Km 1.6 Col. Emiliano Zapata, Cd. de Guamuchil.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.0628667", "25.45976944" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>UNIVERSIDAD DE OCCIDENTE (U. DE O.).</strong><p>Blv. Lazaro Cárdenas y José María Vigil Col Magisterio, Cd. de Guamuchil.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.0650806", "25.45583333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PREPARATORIA UAS.</strong><p>16 de Septiembre y Boulevard Labastida Ochoa, Col Morelos, Cd. de Guamuchil.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.0729722", "25.45116111" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>JARDIN DE NIÑOS FEDERICO FROEBEL.</strong><p>Morelos y Matamoros #26 ote., Col. Centro, Cd. de Guamuchil.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.0801167", "25.45986667" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. SECUNDARIA TÉCNICA AGRÍCOLA # 25 (ETI 25).</strong><p>Margarita Maza de Juárez, Sind. de Benito Juárez.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.1626833", "25.48459444" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA EMILIANO ZAPATA.</strong><p>DOM. CONOCIDO, CD. DE SAN IGNACIO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA JOSEFA ORTIZ DE DOMÍNGUEZ.</strong><p>DOM. CONOCIDO, CD. DE SAN IGNACIO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA BENITO JUÁREZ</strong><p>DOM. CONOCIDO, POBLADO DE COYOTITAN.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA JOSÉ MARÍA MORELOS.</strong><p>DOM. CONOCIDO, POBLADO DE ESTACION DIMAS.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA MIGUEL HIDALGO.</strong><p>DOM. CONOCIDO, POBLADO DE PIAXTLA DE ARRIBA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESC. PRIMARIA RICARDO LOAIZA.</strong><p>DOM. CONOCIDO, POBLADO DE CAMINO REAL</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>DIF MUNICIPAL.</strong><p>C. MIGUEL HIDALGO E IGNACIO ALLENDE S/N, COLONIA CENTRO, CD. DE SINALOA DE LEYVA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.2233917", "25.82100833" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>HACIENDA DE SAN FELIPE Y SANTIAGO.</strong><p>DOM. CONOCIDO, MALECÓN, CD. DE SINALOA DE LEYVA.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.2249889", "25.81851944" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA VENUSTIANO CARRANZA.</strong><p>DOM. CONOCIDO, CALLE PRINCIPAL PAVIMENTADA, POBLADO DE BABURÍA, SINDICATURA CENTRAL.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.2074", "25.83928333" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA MÁRTIRES DE CANANEA.</strong><p>DOM. CONOCIDO, POR LA ORILLA DE LA CARRETERA A MAQUIPO, POBLADO \"\"COLONIA 6 DE MAYO\"\".</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.3113694", "25.698475" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>ESCUELA PRIMARIA IGNACIO RAMÍREZ.</strong><p>DOMICILIO CONOCIDO, POBLADO DE MAQUIPO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "#N/A", "#N/A" ] 
+} 
+},
+{
+ "type": "Feature",
+"properties": {
+ "description": "<strong>CASA EJIDAL</strong><p>DOMICILIO CONOCIDO, POBLADO DE MAQUIPO.</p>",
+"icon": "circle" 
+},
+"geometry": {
+ "type": "Point",
+"coordinates": [ "-108.2942167", "25.68082222" ] 
+} 
+}
       ]
         }
     });
@@ -2415,13 +4434,6 @@ map.on('load', function () {
         }
 
 
-
-
-
-
-
-
-
 //////////////////////
 
                 ]
@@ -2455,8 +4467,8 @@ map.on('click', function (e) {
 });
 
 map.on('mousemove', function (e) {
-    var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
-    map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
+  var features = map.queryRenderedFeatures(e.point, { layers: ['places'] });
+  map.getCanvas().style.cursor = (features.length) ? 'pointer' : '';
 });
 
 map.addControl(new mapboxgl.Navigation({position: 'top-left'}));
