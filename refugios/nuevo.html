@@ -2702,8 +2702,7 @@ map.on('load', function () {
                 ]
 
             }
-        }
-        );
+        });
 
         map.addLayer({
             'id': 'route',
@@ -2717,7 +2716,7 @@ map.on('load', function () {
         });
 
   ///////////////////////////////////////////
-          map.addSource('hundim', {
+  map.addSource('hundim', {
             'type': 'geojson',
             'data': {
     "type": "FeatureCollection",
@@ -2725,7 +2724,7 @@ map.on('load', function () {
         {
             "type": "Feature",
             "geometry": {
-                "type": "MultiPolygon",
+                "type": "Polygon",
                 "coordinates": [
                         [
                             [
