@@ -1,0 +1,17 @@
+{
+  "name": "mario291187.github.io",
+  "homepage": "https://github.com/mario291187/mario291187.github.io",
+  "authors": [
+    "Mario Torres <mario291187@gmail.com>"
+  ],
+  "description": "Home Page",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
