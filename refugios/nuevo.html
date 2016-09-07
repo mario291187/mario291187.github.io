@@ -43,13 +43,12 @@
 
 <div id='state-legend' class='legend'>
     <h4>Zonas de riesgo</h4>
-    <div><span style='background-color: #0c9'></span>Inundación</div>
-    <div><span style='background-color: #0c9'></span>Hundimientos</div>
     <div><span style='background-color: #0c9'></span>Deslizamientos</div>
+    <div><span style='background-color: #FF9800'></span>Hundimientos</div>
+    <!--<div><span style='background-color: #0c9'></span>Deslizamientos</div>-->
 
-    <br>
-    <h4>Refugios</h4>
-    <div><span style='background-color: #B86B25'></span>8</div>
+    <hr>
+    <div><span style='background-color: #B86B25'></span>Refugios</div>
     <!--<div><span style='background-color: #CA8323'></span>2,500,000</div>
     <div><span style='background-color: #DA9C20'></span>1,000,000</div>
     <div><span style='background-color: #E6B71E'></span>750,000</div>
@@ -3219,7 +3218,7 @@ map.on('load', function () {
             'source': 'hundim',
             'layout': {},
             'paint': {
-                'fill-color': '#B71C1C',
+                'fill-color': '#FF9800',
                 'fill-opacity': 0.4
             }
           });
